@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <img src="https://github.com/lufficc/images/blob/master/Xblog/logo.png" alt="Xblog: responsive and powerful!" width="200">
   <br>
@@ -28,3 +29,6 @@ Click [here](https://lufficc.com/blog/how-to-install-my-blog) for details.
 ## License
 
 This blog is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+# blog
+personal blog
