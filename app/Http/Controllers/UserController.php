@@ -164,4 +164,9 @@ class UserController extends Controller
         return $this->imageRepository->uploadImage($image, $key);
     }
 
+    public function test()
+    {
+        echo '11';
+    }
+
 }
