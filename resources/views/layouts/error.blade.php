@@ -71,7 +71,7 @@
             <div class="links">
                 <a href="{{ route('index') }}">Home</a>
                 <a href="{{ route('post.index') }}">Blog</a>
-                <a href="https://github.com/lufficc/Xblog">GitHub</a>
+                <a href="https://github.com/hongweihua">GitHub</a>
             </div>
         @endif
     </div>
