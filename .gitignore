@@ -6,7 +6,7 @@ Homestead.json
 .env
 _ide_helper.php
 .vscode/
-
+/public/storage
 /storage/*.key
 /storage/post
 
