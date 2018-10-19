@@ -4,7 +4,7 @@
         <h2 title="{{ $site_title or 'title' }}" style="margin: 0;">
             {{ $site_title or '华大大的个人网站' }}
             <a aria-hidden="true" href="{{ route('post.index') }}">
-                <img class="img-circle" src="{{ $avatar or 'https://raw.githubusercontent.com/lufficc/images/master/Xblog/logo.png' }}" alt="{{ $author or 'Author' }}">
+                <img class="img-circle" src="{{ $avatar}}" alt="{{ $author or 'Author' }}">
             </a>
         </h2>
         <h3 title="{{ $description or 'description' }}" aria-hidden="true" style="margin: 0">
