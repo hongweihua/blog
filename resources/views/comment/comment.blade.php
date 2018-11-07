@@ -6,7 +6,7 @@
         } else {
             $href = $comment->site ? httpUrl($comment->site) : 'javascript:void(0);';
         }
-        $imgSrc = $comment->user ? $comment->user->avatar : config('app.avatar');
+        $imgSrc = $comment->user ? $comment->user->avatar : "http://www.gravatar.com/avatar/{$comment->id}?d=wavatar&s=40";
         $imgSrc = processImageViewUrl($imgSrc, 40, 40);
         $commentFragment = "comment-$comment->id"
         ?>
